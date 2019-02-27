@@ -8205,7 +8205,20 @@ a.text-dark:focus, a.text-dark:hover {
 /*# sourceMappingURL=bootstrap.css.map */
 .font-robotomono{
 	font-family: 'Roboto Mono', monospace;
-	font-size: 20px
+	font-size: 20px;
+  color: white;
+}
+.font-robotomono-2{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  color: white;
+
+}
+.font-robotomono-3{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: red;
+
 }
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -8323,6 +8336,22 @@ img {vertical-align: middle;}
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+.remove_button_css { 
+  outline: none;
+  padding: 5px; 
+  border: 0px; 
+  box-sizing: none; 
+  background-color: transparent; 
+}
+.carousel-caption-10 {
+   position: absolute;
+   top:-40px
+}
+.img-fluid-per {
+  height: 500px;
+  width: 500px;
+}
+
 	</style>
 </head>
 <body>
@@ -8366,22 +8395,33 @@ img {vertical-align: middle;}
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="pages/history.html" target="_self">
-      <img src="https://www.coindesk.com/wp-content/uploads/2018/11/Bitcoins.jpg" class="img-fluid d-block w-100">
-      <div class="carousel-caption">
-        
-        <h1>Principais moedas ja criadas</h1>
-        <p>Bitcoin, Etherum, Litecon, como surgiram e qual a ideia das maiores criptos do mundo</p>
+      <a href="pages/history.html" target="_self" class="btn" role="button">
+      <img src="https://www.coindesk.com/wp-content/uploads/2018/11/Bitcoins.jpg" class="img-fluid d-block">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="font-robotomono-2">Principais moedas ja criadas</h1>
+        <p class="font-robotomono">Bitcoin, Etherum, Litecon, como surgiram e quais as ideias das maiores criptos do mundo.</p>
         </a>
       </div>
     </div>
 
     <div class="carousel-item">
-      <img src="http://www.newscariri.com.br/wp-content/uploads/2018/03/boit.jpg" class="img-fluid d-block w-100">
+      <a href="pages/tutorial.html" target="_self" class="btn" role="button">
+      <img src="https://c.wallhere.com/photos/89/57/gold_money_coins_dollar_bills-184444.jpg!d" class="img-fluid d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+        <h1 class="font-robotomono-2">Como comprar criptomoedas</h1>
+        <p class="font-robotomono">Quais as formas, sites e metodos para compra de criptomoedas.</p>
+      </div>
+    </a>
     </div>
 
     <div class="carousel-item">
-      <img src="https://marketexclusive.com/wp-content/uploads/2018/08/Crypto-Exchange.jpg" class="img-fluid d-block">
+      <a href="pages/exchange.html">
+      <img src="http://www.ingaia.com.br/wp-content/uploads/2017/06/iStock-621371400.jpg" class="img-fluid d-block">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="font-robotomono-2">Principais Exchanges</h1>
+        <p class="font-robotomono">Informações das principais exchanges do Brasil e do mundo, baseado em volume de compra e venda.</p>
+      </div>
+    </a>
     </div>
     <a class="carousel-control-prev" href="#crypto" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
